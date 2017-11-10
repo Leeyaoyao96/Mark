@@ -1,0 +1,176 @@
+			/*通用样式*/
+			*{
+				margin:0;padding:0;
+			}
+			a{
+				text-decoration: none;
+			}
+			
+			/*安全线居中*/
+			.c{
+				width:1200px;
+				margin:0 auto;
+			}
+			/*清除浮动*/
+			.cl{
+				display: block;
+				overflow: hidden;
+			}
+			/*头部*/
+			.header{
+				height:30px;
+				line-height: 30px;	
+				background: #f9f9f9;
+				width:100%;
+				font-size: 13px;
+			}
+			.huanyin{
+				float: right;
+			}
+			.header a{
+				color: #000;
+			}
+			.header a:hover{
+				color: blue;
+			}
+			/*主要内容*/
+			.content{
+				height:560px;
+				font-size: 15px;
+				color:#666;
+			}
+			.logo{
+				height: 50px;
+				margin-top:17px;
+			}
+			/*注册框*/
+			.zhuce{
+				height: 450px;
+				width: 1198px;
+				border: 1px solid#ccc;
+				margin-top: 30px;
+			}
+			.title{
+				height:28px;
+				width: 1198px;
+				background: url(../img/login_title.png);
+				font-size: 16px;
+				line-height: 28px;
+				color: #333;
+				text-indent: 10px;
+			}
+			.left{
+				float: left;
+			}
+			.right{
+				float: right;
+				width: 426px;
+				height: 323px;
+			}
+			/*表格*/
+			table{
+				margin-top:29px;
+				margin-left:26px;
+				width: 700px;
+			}
+			table tr{
+				height:40px;
+				line-height: 40px;
+			}
+			table th{
+				text-align: right;
+				font-weight: normal;
+			}
+			table img{
+				width:150px;
+				height: 36px;
+				margin-top: -7px;
+				position:relative;
+				top:12px;
+			}
+			table td{
+				font-size: 13px;
+			}
+			table #yzm{
+				width:100px;
+			}
+			.table_zhushi{
+				height:30px;
+				float: right;
+				color: #CCCCCC;
+			}
+
+			.left input{
+				height:30px;
+				width: 350px;
+				outline: none;
+			}
+			#baocun{
+				height: 13px;
+				width: 13px;
+			}
+			#button{
+				background:#e13437 ;
+				border: none;
+				height: 34px;
+				border-radius: 5px;
+				color: #fff;
+				font-size:16px;
+				margin-top:6px;
+				outline: none;
+			}
+			/*表格结束*/
+			/*右部分*/
+			.right_box_s{
+				margin-top:50px;
+				margin-left:20px;
+				width:306px;
+				height:186px;
+				border: 1px solid #CCCCCC;
+				text-align: center;
+			}
+			
+			.right_box_s img{
+				margin-top: 20px;
+				margin-bottom:10px;
+			}
+			.right_text{
+				width:270px;
+				height: 28px;
+				line-height: 28px;
+				font-size: 13px;
+				color: #ccc;
+				border-top:1px solid #ccc;
+				margin:0 auto;
+			}
+			.right_haoma{
+				height: 32px;
+				line-height: 32px;
+				width: 270px;
+				margin:0 auto;
+				font-size: 20px;
+				color: #e4393c;
+				font-family: "微软雅黑";
+				font-weight: bold;
+			}
+			/*尾部*/
+			.footer{
+				height: 180px;
+				text-align: center;
+				font-size: 13px;
+				color: #333;
+				padding-top:18px;
+			}
+			.footer p{
+				line-height: 30px;
+			}
+			.footer img{
+				margin-top:10px
+			}
+			.footer a{
+				color: #333333;
+			}
+			.footer a:hover{
+				text-decoration: underline;
+				color: blue;
+			}

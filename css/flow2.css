@@ -1,0 +1,168 @@
+			/*通用样式*/
+			*{
+				margin:0;padding:0;
+			}
+			a{
+				text-decoration: none;
+			}
+			
+			/*安全线居中*/
+			.c{
+				width:960px;
+				margin:0 auto;
+			}
+			/*清除浮动*/
+			.cl{
+				display: block;
+				overflow: hidden;
+			}
+			/*头部*/
+			.header{
+				height:28px;
+				line-height: 28px;	
+				background: #f9f9f9;
+				width:100%;
+				font-size: 13px;
+			}
+			.huanyin{
+				float: right;
+			}
+			.header a{
+				color: #000;
+			}
+			.header a:hover{
+				color: blue;
+			}
+			/*主要内容*/
+			.content{
+			/*	height:600px;*/
+				font-size: 15px;
+				color:#666;
+			}
+			.logo{
+				height: 50px;
+				margin-top:17px;
+				margin-bottom:29px;
+				float: left;
+			}
+			.logonav a{
+				color: #000000;
+			}
+			.flow2_bg{
+				width: 656px;
+				height: 32px;
+				background: url(../img/flow2_bg.png);
+				float: right;
+				margin-top:26px;
+				margin-bottom:38px;
+			}
+			.flow2_bg span{
+				display: inline-block;
+				height: 32px;
+				line-height: 32px;
+				text-align: center;
+				width:218px;
+				color: #000;
+			}
+			/*核对信息*/
+			.hedui{
+				height: 670px;
+				border: 1px solid #ccc;
+				border-top-color: red;
+			}
+			.hedui_title{
+				height: 32px;
+				line-height: 32px;
+				background: url(../img/flow1_th_bg.png);
+				font-size: 13px;
+				font-weight: bold;
+				text-indent: 10px;
+			}
+			.flow2_table{
+				width: 932px;
+				margin:0 auto;
+				height: 800px;
+			}
+			.flow2_table  table{
+				width: 932px;
+				font-size:13px;
+				border-color: #ccc;
+			}
+			.flow2_table  table a{
+				color: #005ea7;
+			}
+			.flow2_table table a:hover{
+				text-decoration: underline;
+			}
+			.flow2_xinxi{
+				font-weight: bold;
+				color: #000;
+				display: inline-block;
+				font-size: 14px;
+				line-height: 32px;
+			}
+			#tijiao{
+				background: #e03234;
+				width: 150px;
+				height: 32px;
+				border: none;
+				outline: none;
+				float: right;
+				color: #fff;
+				font-size:15px;
+			}
+			/*表格中的flow1表格*/
+			.flow1_table{
+				height:346px;	
+			
+			}
+			.flow1_table table{
+				font-size:13px;
+				height: 346px;
+				width:916px;
+				text-align: center;
+				background: #fffdee;
+				border-color: #ddd;
+			}
+			.flow1_table th{
+				height: 32px;
+				background: url(../img/flow1_th_bg.png);
+			}
+			.flow1_table_left{
+				height: 92px;
+				width: 90px;
+				float: left;
+			}
+			.flow1_table_left img{
+				padding-top: 6px;
+				padding-left: 5px;
+			}
+			.flow1_table_right{
+				float: left;
+				height: 34px;
+				width: 258px;
+				padding-top:33px;
+				text-align: left;
+			}
+			/*表格结束*/
+			/*尾部*/
+			.footer{
+				height: 180px;
+				text-align: center;
+				font-size: 13px;
+				color: #333;
+				padding-top:18px;
+			}
+			.footer p{
+				line-height: 30px;
+			}
+			.footer img{
+				margin-top:10px
+			}
+			.footer a{
+				color: #333333;
+			}
+			.footer a:hover{
+				text-decoration: underline;
+				color: blue;
+			}

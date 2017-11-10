@@ -1,0 +1,270 @@
+			/*通用样式*/
+			*{
+				margin:0;padding:0;
+			}
+			a{
+				text-decoration: none;
+			}
+			.nav a{
+				color: #fff;
+			}
+			/*安全线居中*/
+			.c{
+				width:1200px;
+				margin:0 auto;
+			}
+			/*清除浮动*/
+			.cl{
+				display: block;
+				overflow: hidden;
+			}
+			/*头部*/
+			.header{
+				height:30px;
+				line-height: 30px;	
+				background: #f9f9f9;
+				width:100%;
+				font-size: 13px;
+			}
+			.huanyin{
+				float: right;
+			}
+			.header a{
+				color: #000;
+			}
+			.header a:hover{
+				color: blue;
+			}
+			/*主体内容*/
+			.content{
+				height: 620px;
+			}
+			/*logo栏*/
+			.content .logo{
+				float: left;
+				margin-top:17px;
+			}
+			/*搜索框*/
+			.sousuo{
+				float: left;
+				height: 62px;
+				width:570px;
+				margin-top: 22px;
+				margin-left:90px;
+			}
+			.sousuo td{
+				height: 36px;
+			}
+			/*左、中、右搜索框部分*/
+			.s_z{
+				width: 3px;
+				background: url(../img/address_border_left.png) no-repeat;
+			}
+			.s_c{
+				background: url(../img/address_bot.png);
+				width:450px;
+			}
+			.s_y{
+				width:3px;
+				background: url(../img/address_boder_right.png) no-repeat;
+			}
+			
+			/*input设置*/
+			.sousuo #ss{
+				height: 30px;
+				width:84%;
+				border: none;
+				font-size: 16px;
+				outline: none;
+				text-indent: 5px;
+			}
+			/*搜索按钮*/
+			.sousuo #butto_ss{
+				height: 84%;
+				width:72px;
+				border: none;
+				background: url(../img/button_bg.png);
+				outline: none;
+			}
+			/*购物车栏*/
+			.gouwuche{
+				height: 96px;
+				width:280px;
+				float: left;
+				font-size: 14px;
+			}
+			.gouwuche a{
+				color: #000000;
+			}
+			.weizhi{
+				position: relative;
+				top:34px;
+				
+			}
+			.ren{
+				float: left;
+				height: 28px;
+				width: 110px;
+				background: url(../img/ren_bg.png) no-repeat;
+				line-height: 28px;
+				text-indent:8px;
+			}
+			.ren .icon_ren{
+				float: left;
+				position: relative;
+    			top: 2px;
+			}
+			.ren .yh{
+				float: left;
+				width:68px;
+			}
+			.ren .icon_xia{
+				float: left;
+				position: relative;
+    			top: 12px;
+			}
+			.gouwu{
+				float: right;
+				height: 28px;
+				width: 131px;
+				background: url(../img/gouwu-bg.png) no-repeat;
+				line-height: 28px;
+				text-indent: 34px;
+			}
+			/*导航*/
+			.nav{
+				height: 40px;
+			}
+			.nav table td{
+				height:40px ;
+				color: #fff;
+			}
+			/*导航栏4个部分*/
+			.nav_z{
+				width: 10px;
+				background: url(../img/address_nav_z.png) no-repeat;
+			}
+			.nav_zz{
+				width:220px;
+				background: url(../img/address_nav_zz.png);
+			}
+			.nav_c{
+				width:960px;
+				background: url(../img/address_nav_c.png) repeat-x;
+			}
+			.nav_y{
+				width:10px;
+				background: url(../img/address_nav_y.png) no-repeat;
+			}
+			.nav ul{
+				list-style: none;
+				height:40px;
+			}
+			.nav ul li{
+				height: 40px;
+				line-height: 40px;
+				float: left;
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+			.nav .fengexian{
+				padding-left:0;
+				padding-right:0;
+			}
+			.nav li:hover{
+				background: url(../img/address_nac_d.png);
+			}
+			/*主要内容main*/
+			.main{
+				height: 440px;
+			}
+			.left{
+				float: left;
+				width: 208px;
+				height: 438px;
+				border:1px solid #F1F1F1;
+			}
+			.left_title{
+				height: 30px;
+				line-height: 30px;
+				background: #ccc;
+				color: #fff;
+				font-size: 17px;
+				text-indent: 10px;
+				font-family: "黑体";
+			}
+			.left_title_s{
+				font-size: 13px;
+				font-weight: bold;
+				background: #f1f1f1;
+				text-indent: 10px;
+				font-family: "黑体";
+				height: 27px;
+				line-height: 27px;
+				color: #333;
+			}
+			/*列表设置*/
+			.main_ul{
+				padding-left:20px;
+				list-style-image: url(../img/address_icon_dian.png);
+			}
+			.main ul li{
+				font-size: 13px;
+				line-height: 27px;
+				height:27px;
+			}
+			.main li:hover{
+				font-weight: bold;
+			}
+			.main .left a{
+				color:#000;
+			}
+			/*右边部分(账户信息)开始*/
+			.right{
+				float: right;
+				width: 980px;
+				height: 438px;
+			}
+			.top{
+				width: 978px;
+				height: 30px;
+				border:1px solid #F1F1F1;
+			}
+			.top_title{
+				height: 30px;
+				border-bottom: 2px solid #cc3300;
+				line-height: 30px;
+				text-indent: 18px;
+				font-size: 14px;
+				font-weight: bold;
+				color: #cc0000;
+			}
+			.bottom{
+				margin-top:10px;
+				height: 200px;
+				width: 978px;
+			}
+			/*表格*/
+			.bottom_table{
+				font-size: 13px;
+			}
+			.bottom_table tr{
+				height: 40px;
+			}
+			.bottom_table th{
+				font-weight: normal;
+				text-align：left;
+				line-height:40px ;
+				color: #666;
+			}
+			.bottom_table td{
+				height:40px ;
+				font-weight: bold;
+				color: #333;
+			}
+			.bottom_table input{
+				height: 30px;
+				width:260px;
+				outline: none;
+			}
+			/*右边部分(账户信息)结束*/
